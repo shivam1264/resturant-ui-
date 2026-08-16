@@ -1,0 +1,56 @@
+﻿{
+  "schemaVersion": 2,
+  "generatedAt": "2026-08-16T00:27:00.000Z",
+  "title": "Design System: RoyalBite Fine Dine Restaurant",
+  "extensions": {
+    "colorMeta": {
+      "deep-olive": { "role": "primary", "displayName": "Deep Olive", "canonical": "#1E392A" },
+      "harvest-amber": { "role": "accent", "displayName": "Harvest Amber", "canonical": "#E58B24" },
+      "warm-ivory": { "role": "neutral-bg", "displayName": "Warm Ivory", "canonical": "#FAF7F2" },
+      "ivory-alt": { "role": "surface", "displayName": "Ivory Alt", "canonical": "#F3EDE4" },
+      "ink": { "role": "text", "displayName": "Ink Text", "canonical": "#17261E" }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Cormorant Display", "purpose": "Hero and major section titles" },
+      "body": { "displayName": "DM Sans Body", "purpose": "Menu items, descriptions, form fields" }
+    },
+    "shadows": [
+      { "name": "sh-sm", "value": "0 4px 16px rgba(30,57,42,.09)", "purpose": "Resting cards and buttons" },
+      { "name": "sh-md", "value": "0 10px 32px rgba(30,57,42,.11)", "purpose": "Elevated modal/form cards" },
+      { "name": "sh-lg", "value": "0 20px 52px rgba(30,57,42,.14)", "purpose": "Signature hero dish ring" }
+    ],
+    "motion": [
+      { "name": "ease-standard", "value": "cubic-bezier(0.16, 1, 0.3, 1)", "purpose": "Smooth reveal and lift deceleration" }
+    ],
+    "breakpoints": [
+      { "name": "tablet", "value": "768px" },
+      { "name": "mobile", "value": "480px" }
+    ]
+  },
+  "narrative": {
+    "northStar": "The Garden Table",
+    "overview": "Earthy luxury where candlelight meets courtyard greenery. Warm ivory canvas with deep olive grounding and harvest amber conviction.",
+    "keyCharacteristics": [
+      "Warm, earthy palette anchored by Ivory, Olive, and Amber",
+      "Serif/sans dual voice: Cormorant for heritage, DM Sans for clarity",
+      "Organic elevation: tinted box-shadows in Olive-green, not grey",
+      "Pill filter chips and CTA buttons; gently rounded content cards",
+      "Single signature circle geometry in hero dish"
+    ],
+    "rules": [
+      { "name": "The Amber Scarcity Rule", "body": "Amber covers <= 15% of any screen. Its warmth is the conviction point.", "section": "colors" },
+      { "name": "The No-Cold-Grey Rule", "body": "No cool greys. Every neutral is warm (Ivory, Sand, Sage).", "section": "colors" },
+      { "name": "The Circle Singularity Rule", "body": "The circular dish ring in the hero is the system's only circle.", "section": "shapes" }
+    ],
+    "dos": [
+      "Do use Cormorant Garamond for all headings and prices.",
+      "Do use Harvest Amber (#E58B24) only for eyebrows, active badges, and focus accents.",
+      "Do keep touch targets >= 44px for thumb accessibility."
+    ],
+    "donts": [
+      "Don't use pure black (#000) or cold grey.",
+      "Don't apply pill shape to content cards.",
+      "Don't stack more than two fonts in one component."
+    ]
+  }
+}

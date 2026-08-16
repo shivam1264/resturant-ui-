@@ -1,0 +1,1048 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>RoyalBite — Fine Dine Restaurant & Culinary Heritage</title>
+  <meta name="description" content="RoyalBite Fine Dine Restaurant — Experience culinary artistry with farm-fresh ingredients and authentic heritage flavours curated by master chefs." />
+
+  <!-- Google Fonts: Cormorant Garamond (Editorial Serif) + DM Sans (Clean Modernist Sans) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600;1,700&family=DM+Sans:ital,opsz,wght@0,9..40,300;0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700;1,9..40,400&family=Great+Vibes&display=swap" rel="stylesheet" />
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ===================== CLEAN TRANSPARENT HEADER (MATCHING SCREENSHOT) ===================== -->
+  <header class="site-header-wrapper" id="siteHeaderWrapper">
+    <div class="site-header seamless-header" id="siteHeader">
+      <div class="header-wrap">
+
+        <!-- Brand Mark (Exact match to screenshot) -->
+        <a href="#home" class="site-logo" aria-label="RoyalBite Home">
+          <div class="logo-icon-crown">
+            <svg width="42" height="44" viewBox="0 0 40 42" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <!-- Crown Crest -->
+              <path d="M7 14L11 8L20 13L29 8L33 14" stroke="#D97706" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"/>
+              <circle cx="7" cy="13" r="1.5" fill="#D97706"/>
+              <circle cx="11" cy="7" r="1.5" fill="#D97706"/>
+              <circle cx="20" cy="12" r="1.8" fill="#D97706"/>
+              <circle cx="29" cy="7" r="1.5" fill="#D97706"/>
+              <circle cx="33" cy="13" r="1.5" fill="#D97706"/>
+              <!-- Shield Body -->
+              <path d="M8 15V24C8 31 15 37 20 39C25 37 32 31 32 24V15H8Z" stroke="#D97706" stroke-width="2.2" stroke-linejoin="round" fill="none"/>
+              <path d="M11 18V24C11 29 16 34 20 35.5C24 34 29 29 29 24V18H11Z" stroke="#D97706" stroke-width="1" stroke-opacity="0.4" fill="none"/>
+              <!-- Letter R -->
+              <text x="20" y="28" font-family="'Cormorant Garamond', Georgia, serif" font-size="16" font-weight="700" font-style="italic" fill="#D97706" text-anchor="middle">R</text>
+            </svg>
+          </div>
+          <div class="logo-text">
+            <span class="logo-name"><span class="logo-name-dark">Royal</span><span class="logo-name-gold">Bite</span></span>
+            <span class="logo-tag">FINE DINE RESTAURANT</span>
+          </div>
+        </a>
+
+        <!-- Desktop Navigation (Matching screenshot labels & underline) -->
+        <nav class="nav-links" id="navLinks" aria-label="Main Navigation">
+          <a href="#home"        class="nav-item active" data-target="home">Home<span class="nav-active-bar"></span></a>
+          <a href="#story"       class="nav-item" data-target="story">About<span class="nav-active-bar"></span></a>
+          <a href="#menu"        class="nav-item" data-target="menu">Menu<span class="nav-active-bar"></span></a>
+          <a href="#reservation" class="nav-item" data-target="reservation">Reservation<span class="nav-active-bar"></span></a>
+          <a href="#gallery"     class="nav-item" data-target="gallery">Gallery<span class="nav-active-bar"></span></a>
+          <a href="#contact"     class="nav-item" data-target="contact">Contact<span class="nav-active-bar"></span></a>
+        </nav>
+
+        <!-- CTA & Mobile Toggle -->
+        <div class="header-right">
+          <a href="login.html" class="btn-royal-amber header-cta-btn" style="background: rgba(255,255,255,0.9); color: #1C3A27; border: 1px solid rgba(225, 212, 198, 0.8); box-shadow: 0 2px 8px rgba(0,0,0,0.04);">
+            <i data-lucide="user"></i>
+            <span>Sign In</span>
+          </a>
+          <a href="#reservation" class="btn-royal-amber header-cta-btn">
+            <i data-lucide="calendar"></i>
+            <span>Book a Table</span>
+          </a>
+          <button class="hamburger-btn" id="mobileMenuBtn" aria-label="Toggle Menu">
+            <span class="ham-line"></span>
+            <span class="ham-line"></span>
+          </button>
+        </div>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== MAIN CONTENT ===================== -->
+  <main class="main-content-flow">
+
+    <!-- ── SECTION 1: HERO (ATTENTION CHAPTER) ── -->
+    <section class="page-section section-hero" id="home">
+      <div class="hero-wrap">
+        <div class="container">
+          <div class="hero-grid">
+
+            <!-- Hero Text Column (Matching User Screenshot 100%) -->
+            <div class="hero-text-col">
+              
+              <!-- Cursive Eyebrow Header -->
+              <div class="hero-cursive-eyebrow">
+                <svg class="eyebrow-leaf-icon" width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="#D97706" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/>
+                  <path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/>
+                </svg>
+                <span class="cursive-welcome-txt">Welcome to RoyalBite</span>
+              </div>
+
+              <!-- Main Headline (Matching Screenshot) -->
+              <h1 class="hero-headline-story">
+                <span class="hl-line-1">Where Every</span><br />
+                <span class="hl-line-2"><span class="hl-amber-word">Bite</span> Tells a Story</span>
+              </h1>
+
+              <!-- Subtext (Matching Screenshot) -->
+              <p class="hero-lead-story">
+                Experience the perfect blend of exquisite flavors,<br class="desktop-only-br" />
+                warm ambiance and unforgettable moments.
+              </p>
+
+              <!-- Dual Buttons (Matching Screenshot) -->
+              <div class="hero-cta-row-story">
+                <a href="#menu" class="btn-royal-solid">
+                  <span>View Menu</span>
+                  <i data-lucide="book-open"></i>
+                </a>
+                <a href="#reservation" class="btn-royal-outline">
+                  <span>Book a Table</span>
+                  <i data-lucide="calendar"></i>
+                </a>
+              </div>
+
+              <!-- 2K+ Happy Customers Proof Bar (Matching Screenshot) -->
+              <div class="hero-customer-proof">
+                <div class="avatar-stack">
+                  <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=100&q=80" alt="Customer Avatar" class="avatar-img" />
+                  <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=100&q=80" alt="Customer Avatar" class="avatar-img" />
+                  <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=100&q=80" alt="Customer Avatar" class="avatar-img" />
+                  <img src="https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&w=100&q=80" alt="Customer Avatar" class="avatar-img" />
+                </div>
+                <div class="proof-info-box">
+                  <span class="proof-count-txt">2K+ Happy Customers</span>
+                  <div class="proof-stars-row">★★★★★</div>
+                </div>
+              </div>
+
+            </div>
+
+            <!-- Hero Visual Area (Clean background image display) -->
+            <div class="hero-visual-col"></div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SECTION 2: ABOUT US (EXACT MATCH TO USER SCREENSHOT) ── -->
+    <section class="page-section section-about-full" id="story">
+      <div class="container">
+        
+        <!-- Top Row: About Us Narrative Grid -->
+        <div class="about-top-grid">
+
+          <!-- Left Column: Copywriting & Cursive Quote -->
+          <div class="about-text-col">
+            <span class="about-eyebrow">GOOD FOOD CREATES GREATER STORIES</span>
+            <h2 class="about-main-title">About Us</h2>
+            <p class="about-lead-quote">Food is not just a meal, it's a way of bringing people together.</p>
+            <p class="about-body-text">
+              We are a passionate team of food lovers, dedicated to serving fresh, healthy and delicious vegetarian food. Our kitchen combines traditional flavors with modern creativity to give you an unforgettable dining experience.
+            </p>
+            
+            <!-- Cursive Signature Quote -->
+            <div class="about-cursive-quote">
+              <span>Pure Ingredients.</span><br />
+              <span>Happier People.</span>
+            </div>
+          </div>
+
+          <!-- Right Column: Restaurant Interior Image Frame -->
+          <div class="about-media-col">
+            <div class="about-image-card">
+              <img
+                src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=80"
+                alt="RoyalBite Restaurant Interior Dining Space"
+                class="about-main-img"
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Middle Row: 4 Statistics Strip (With Top & Bottom Borders) -->
+        <div class="about-stats-strip">
+          
+          <div class="astat-block">
+            <div class="astat-icon"><i data-lucide="soup"></i></div>
+            <div class="astat-content">
+              <span class="astat-num">5+</span>
+              <span class="astat-lbl">Years of Service</span>
+            </div>
+          </div>
+
+          <div class="astat-block">
+            <div class="astat-icon"><i data-lucide="users"></i></div>
+            <div class="astat-content">
+              <span class="astat-num">50K+</span>
+              <span class="astat-lbl">Happy Customers</span>
+            </div>
+          </div>
+
+          <div class="astat-block">
+            <div class="astat-icon"><i data-lucide="leaf"></i></div>
+            <div class="astat-content">
+              <span class="astat-num">100%</span>
+              <span class="astat-lbl">Vegetarian Food</span>
+            </div>
+          </div>
+
+          <div class="astat-block">
+            <div class="astat-icon"><i data-lucide="star"></i></div>
+            <div class="astat-content">
+              <span class="astat-num">4.8</span>
+              <span class="astat-lbl">Customer Rating</span>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Bottom Row: Our Values Grid -->
+        <div class="about-bottom-grid">
+
+          <!-- Left Column: Fresh Organic Vegetables Image -->
+          <div class="about-values-media">
+            <div class="about-image-card">
+              <img
+                src="https://images.unsplash.com/photo-1540420773420-3366772f4999?auto=format&fit=crop&w=800&q=80"
+                alt="Fresh Organic Vegetables &amp; Legumes"
+                class="about-values-img"
+                loading="lazy"
+              />
+            </div>
+          </div>
+
+          <!-- Right Column: Values Narrative & 3 White Cards -->
+          <div class="about-values-content">
+            <span class="about-eyebrow">OUR VALUES</span>
+            <h3 class="values-heading">
+              Good Food Today,<br />
+              A Healthier Tomorrow
+            </h3>
+            <p class="values-lead-text">
+              We believe in quality ingredients, sustainable practices, and creating a positive impact on our community through healthy and delicious vegetarian food.
+            </p>
+
+            <!-- 3 White Value Cards Grid -->
+            <div class="values-cards-row">
+
+              <!-- Card 1: Fresh Ingredients -->
+              <div class="value-mini-card">
+                <div class="vcard-icon"><i data-lucide="sprout"></i></div>
+                <div class="vcard-text-wrap">
+                  <h4 class="vcard-title">Fresh Ingredients</h4>
+                  <p class="vcard-desc">Locally sourced, always fresh.</p>
+                </div>
+              </div>
+
+              <!-- Card 2: Healthy Choices -->
+              <div class="value-mini-card">
+                <div class="vcard-icon"><i data-lucide="heart"></i></div>
+                <div class="vcard-text-wrap">
+                  <h4 class="vcard-title">Healthy Choices</h4>
+                  <p class="vcard-desc">Good for you, good for all.</p>
+                </div>
+              </div>
+
+              <!-- Card 3: A Greener Future -->
+              <div class="value-mini-card">
+                <div class="vcard-icon"><i data-lucide="globe"></i></div>
+                <div class="vcard-text-wrap">
+                  <h4 class="vcard-title">A Greener Future</h4>
+                  <p class="vcard-desc">Sustainable food, brighter world.</p>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── SECTION 4: MENU SHOWCASE (100% MATCH TO USER REFERENCE SCREENSHOT) ── -->
+    <section class="page-section section-menu" id="menu">
+      <div class="container">
+
+        <!-- Top Header Center -->
+        <div class="menu-header-center">
+          <div class="menu-header-ornament-top">
+            <svg width="48" height="14" viewBox="0 0 48 14" fill="none">
+              <path d="M24 0C27 4 33 7 39 7C45 7 48 4 48 4C48 4 43 12 34 12C27 12 24 7 24 7C24 7 21 12 14 12C5 12 0 4 0 4C0 4 3 7 9 7C15 7 21 4 24 0Z" fill="#1C3A27" opacity="0.8"/>
+              <circle cx="24" cy="4" r="2.5" fill="#B48B5D"/>
+            </svg>
+          </div>
+          <h2 class="menu-main-title">Explore Our Menu</h2>
+          <div class="menu-sub-gold">Good Food. Good Mood.</div>
+          <div class="menu-header-ornament-mid">
+            <svg width="36" height="10" viewBox="0 0 36 10" fill="none">
+              <path d="M0 5H14M22 5H36" stroke="#B48B5D" stroke-width="1.2" stroke-linecap="round"/>
+              <circle cx="18" cy="5" r="2" fill="#B48B5D"/>
+            </svg>
+          </div>
+          <p class="menu-main-caption">Handcrafted by our master chefs using the finest ingredients</p>
+        </div>
+
+        <!-- Filter Tabs Island Bar -->
+        <div class="menu-tabs-bar">
+          <button class="menu-tab-btn active" data-cat="featured">
+            <i data-lucide="star"></i>
+            <span>Featured</span>
+          </button>
+          <button class="menu-tab-btn" data-cat="starters">
+            <i data-lucide="sprout"></i>
+            <span>Starters</span>
+          </button>
+          <button class="menu-tab-btn" data-cat="mains">
+            <i data-lucide="concierge-bell"></i>
+            <span>Main Course</span>
+          </button>
+          <button class="menu-tab-btn" data-cat="breads">
+            <i data-lucide="sandwich"></i>
+            <span>Breads</span>
+          </button>
+          <button class="menu-tab-btn" data-cat="desserts">
+            <i data-lucide="cake"></i>
+            <span>Desserts</span>
+          </button>
+          <button class="menu-tab-btn" data-cat="beverages">
+            <i data-lucide="cup-soda"></i>
+            <span>Beverages</span>
+          </button>
+        </div>
+
+        <!-- Carousel Wrapper with Side Arrow Buttons -->
+        <div class="menu-carousel-wrapper">
+
+          <button class="menu-arrow-btn menu-arrow-prev" id="menuPrevBtn" aria-label="Previous Dishes">
+            <i data-lucide="chevron-left"></i>
+          </button>
+
+          <div class="menu-dishes-grid" id="menuDishesGrid">
+
+            <!-- Card 1: Truffle Pasta -->
+            <div class="menu-dish-card" onclick="openDishModal('truffle-pasta')">
+              <div class="mdish-thumb-wrap">
+                <img src="https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?auto=format&fit=crop&w=600&q=80" alt="Truffle Pasta" class="mdish-img" loading="lazy" />
+                <div class="diet-badge veg" title="Vegetarian"><span class="diet-dot"></span></div>
+              </div>
+              <div class="mdish-body">
+                <span class="mdish-special-tag">CHEF'S SPECIAL</span>
+                <div class="mdish-header-row">
+                  <h3 class="mdish-name">Truffle Pasta</h3>
+                  <span class="mdish-price">₹499</span>
+                </div>
+                <p class="mdish-desc">Creamy pasta with truffle &amp; wild mushrooms</p>
+                <div class="mdish-footer-row">
+                  <div class="mdish-rating">
+                    <span class="mdish-stars">★★★★★</span>
+                    <span class="mdish-score">4.8 (320)</span>
+                  </div>
+                  <button class="mdish-fav-btn" aria-label="Favorite" onclick="event.stopPropagation(); this.classList.toggle('active')">
+                    <i data-lucide="heart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 2: Chicken Tikka -->
+            <div class="menu-dish-card" onclick="openDishModal('chicken-tikka')">
+              <div class="mdish-thumb-wrap">
+                <img src="https://images.unsplash.com/photo-1545247181-516773cae754?auto=format&fit=crop&w=600&q=80" alt="Chicken Tikka" class="mdish-img" loading="lazy" />
+                <div class="diet-badge nonveg" title="Non-Vegetarian"><span class="diet-dot"></span></div>
+              </div>
+              <div class="mdish-body">
+                <div class="mdish-header-row">
+                  <h3 class="mdish-name">Chicken Tikka</h3>
+                  <span class="mdish-price">₹299</span>
+                </div>
+                <p class="mdish-desc">Classic tandoori chicken marinated in spices</p>
+                <div class="mdish-footer-row">
+                  <div class="mdish-rating">
+                    <span class="mdish-stars">★★★★★</span>
+                    <span class="mdish-score">4.6 (278)</span>
+                  </div>
+                  <button class="mdish-fav-btn" aria-label="Favorite" onclick="event.stopPropagation(); this.classList.toggle('active')">
+                    <i data-lucide="heart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 3: Hyderabadi Biryani (Active Popular Featured Card) -->
+            <div class="menu-dish-card mdish-popular-card" onclick="openDishModal('biryani')">
+              <div class="mdish-thumb-wrap">
+                <img src="https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80" alt="Hyderabadi Biryani" class="mdish-img" loading="lazy" />
+                <div class="mdish-popular-tag"><i data-lucide="crown"></i> POPULAR</div>
+                <div class="diet-badge veg" title="Vegetarian"><span class="diet-dot"></span></div>
+              </div>
+              <div class="mdish-body">
+                <div class="mdish-header-row">
+                  <h3 class="mdish-name">Hyderabadi Biryani</h3>
+                  <span class="mdish-price">₹349</span>
+                </div>
+                <p class="mdish-desc">Fragrant basmati rice cooked with aromatic spices</p>
+                <div class="mdish-footer-row">
+                  <div class="mdish-rating">
+                    <span class="mdish-stars">★★★★★</span>
+                    <span class="mdish-score">4.7 (452)</span>
+                  </div>
+                  <button class="mdish-fav-btn active" aria-label="Favorite" onclick="event.stopPropagation(); this.classList.toggle('active')">
+                    <i data-lucide="heart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+            <!-- Card 4: Chocolate Lava Cake -->
+            <div class="menu-dish-card" onclick="openDishModal('lava-cake')">
+              <div class="mdish-thumb-wrap">
+                <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=600&q=80" alt="Chocolate Lava Cake" class="mdish-img" loading="lazy" />
+                <div class="diet-badge veg" title="Vegetarian"><span class="diet-dot"></span></div>
+              </div>
+              <div class="mdish-body">
+                <div class="mdish-header-row">
+                  <h3 class="mdish-name">Chocolate Lava Cake</h3>
+                  <span class="mdish-price">₹199</span>
+                </div>
+                <p class="mdish-desc">Warm chocolate cake with molten chocolate center</p>
+                <div class="mdish-footer-row">
+                  <div class="mdish-rating">
+                    <span class="mdish-stars">★★★★★</span>
+                    <span class="mdish-score">4.9 (386)</span>
+                  </div>
+                  <button class="mdish-fav-btn" aria-label="Favorite" onclick="event.stopPropagation(); this.classList.toggle('active')">
+                    <i data-lucide="heart"></i>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <button class="menu-arrow-btn menu-arrow-next" id="menuNextBtn" aria-label="Next Dishes">
+            <i data-lucide="chevron-right"></i>
+          </button>
+        </div>
+
+        <!-- View Full Menu CTA Row with Side Botanical Leaf Flourishes -->
+        <div class="menu-cta-flourish-row">
+          <div class="leaf-flourish left">
+            <svg width="48" height="24" viewBox="0 0 48 24" fill="none">
+              <path d="M0 12C12 12 22 2 30 2C38 2 44 10 48 12" stroke="#B48B5D" stroke-width="1.2" stroke-linecap="round"/>
+              <path d="M14 9C19 4 24 5 27 9" stroke="#B48B5D" stroke-width="1" stroke-linecap="round"/>
+            </svg>
+          </div>
+
+          <button type="button" class="btn-explore-full-menu" onclick="toggleFullMenu()">
+            <i data-lucide="book-open"></i>
+            <span>View Full Menu</span>
+            <i data-lucide="arrow-right"></i>
+          </button>
+
+          <div class="leaf-flourish right">
+            <svg width="48" height="24" viewBox="0 0 48 24" fill="none">
+              <path d="M48 12C36 12 26 2 18 2C10 2 4 10 0 12" stroke="#B48B5D" stroke-width="1.2" stroke-linecap="round"/>
+              <path d="M34 9C29 4 24 5 21 9" stroke="#B48B5D" stroke-width="1" stroke-linecap="round"/>
+            </svg>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── SECTION 5: RESERVATION SUITE (ACTION) ── -->
+    <section class="page-section section-reservation" id="reservation">
+    <!-- ── SECTION 5: RESERVATION (100% MATCH TO USER REFERENCE SCREENSHOT) ── -->
+    <section class="page-section section-reservation" id="reservation">
+      <div class="container">
+        <div class="res-ref-grid">
+
+          <!-- Left Info Column -->
+          <div class="res-ref-left">
+            <div class="res-ref-eyebrow">
+              <span>BOOK A TABLE</span>
+              <svg width="22" height="14" viewBox="0 0 22 14" fill="none">
+                <path d="M0 7C6 1 14 0 22 7C16 13 8 14 0 7Z" fill="#C49859" opacity="0.85"/>
+              </svg>
+            </div>
+            
+            <h2 class="res-ref-title">
+              Reserve Your<br />
+              Perfect Table
+            </h2>
+            
+            <p class="res-ref-desc">
+              Good food brings people together. Book your table and enjoy a memorable dining experience with us.
+            </p>
+
+            <!-- 3 Badges Row -->
+            <div class="res-ref-badges-row">
+              <div class="res-ref-badge">
+                <div class="rbadge-icon"><i data-lucide="calendar"></i></div>
+                <div class="rbadge-text">
+                  <strong>Easy</strong>
+                  <span>Booking</span>
+                </div>
+              </div>
+              <div class="res-ref-badge">
+                <div class="rbadge-icon"><i data-lucide="utensils"></i></div>
+                <div class="rbadge-text">
+                  <strong>Best</strong>
+                  <span>Ambience</span>
+                </div>
+              </div>
+              <div class="res-ref-badge">
+                <div class="rbadge-icon"><i data-lucide="bell"></i></div>
+                <div class="rbadge-text">
+                  <strong>Great Food</strong>
+                  <span>Experience</span>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Reservation Form Card (100% Match to Mockup) -->
+          <div class="res-ref-card-shell">
+            <div class="res-ref-card-inner">
+
+              <h3 class="res-ref-card-title">Book Your Table</h3>
+              <div class="res-ref-card-ornament">
+                <svg width="36" height="8" viewBox="0 0 36 8" fill="none">
+                  <path d="M0 4H14M22 4H36" stroke="#C49859" stroke-width="1.2" stroke-linecap="round"/>
+                  <circle cx="18" cy="4" r="2" fill="#C49859"/>
+                </svg>
+              </div>
+
+              <form id="royalReservationForm">
+                <input type="hidden" id="selectedZone" value="candlelight" />
+                
+                <!-- Row 1: Full Name & Phone Number -->
+                <div class="ref-form-row">
+                  <div class="ref-input-wrap">
+                    <span class="ref-input-icon"><i data-lucide="user"></i></span>
+                    <input type="text" id="rbName" placeholder="Full Name" required />
+                  </div>
+                  <div class="ref-input-wrap">
+                    <span class="ref-input-icon"><i data-lucide="phone"></i></span>
+                    <input type="tel" id="rbPhone" placeholder="Phone Number" required />
+                  </div>
+                </div>
+
+                <!-- Row 2: Email Address & Date -->
+                <div class="ref-form-row">
+                  <div class="ref-input-wrap">
+                    <span class="ref-input-icon"><i data-lucide="mail"></i></span>
+                    <input type="email" id="rbEmail" placeholder="Email Address" required />
+                  </div>
+                  <div class="ref-input-wrap">
+                    <span class="ref-input-icon"><i data-lucide="calendar"></i></span>
+                    <input type="date" id="rbDate" required />
+                  </div>
+                </div>
+
+                <!-- Row 3: Time & Guests -->
+                <div class="ref-form-row">
+                  <div class="ref-input-wrap select-wrap">
+                    <span class="ref-input-icon"><i data-lucide="clock"></i></span>
+                    <select id="rbTime" required>
+                      <option value="">Time</option>
+                      <option>12:30 PM (Lunch)</option>
+                      <option>01:30 PM (Lunch)</option>
+                      <option>07:00 PM (Dinner)</option>
+                      <option>08:00 PM (Dinner)</option>
+                      <option>09:00 PM (Dinner)</option>
+                      <option>10:00 PM (Late Dinner)</option>
+                    </select>
+                    <span class="ref-select-arrow"><i data-lucide="chevron-down"></i></span>
+                  </div>
+                  <div class="ref-input-wrap select-wrap">
+                    <span class="ref-input-icon"><i data-lucide="users"></i></span>
+                    <select id="rbGuests" required>
+                      <option value="">Guests</option>
+                      <option value="2">2 Guests (Table for Two)</option>
+                      <option value="4" selected>4 Guests (Family Table)</option>
+                      <option value="6">6 Guests (Celebration)</option>
+                      <option value="8">8 Guests (Private Booth)</option>
+                      <option value="12">10+ Guests (Private Hall)</option>
+                    </select>
+                    <span class="ref-select-arrow"><i data-lucide="chevron-down"></i></span>
+                  </div>
+                </div>
+
+                <!-- Row 4: Select Area/Section (Optional) -->
+                <div class="ref-input-wrap select-wrap full-width">
+                  <span class="ref-input-icon"><i data-lucide="map-pin"></i></span>
+                  <select id="rbArea">
+                    <option value="">Select Area/Section (Optional)</option>
+                    <option value="candlelight">Main Candlelit Hall</option>
+                    <option value="courtyard">Courtyard Garden</option>
+                    <option value="cellar">Sommelier Cellar Vault</option>
+                    <option value="counter">Chef's Counter (Live View)</option>
+                  </select>
+                  <span class="ref-select-arrow"><i data-lucide="chevron-down"></i></span>
+                </div>
+
+                <!-- Row 5: Special Request (Optional) -->
+                <div class="ref-input-wrap textarea-wrap full-width">
+                  <span class="ref-input-icon"><i data-lucide="edit-3"></i></span>
+                  <textarea id="rbNotes" rows="2" placeholder="Special Request (Optional)"></textarea>
+                </div>
+
+                <!-- Row 6: Submit Button -->
+                <button type="submit" class="ref-submit-btn">
+                  <span>CONFIRM BOOKING</span>
+                  <i data-lucide="arrow-right"></i>
+                </button>
+              </form>
+
+              <!-- Bottom Micro-copy -->
+              <div class="ref-privacy-note">
+                <i data-lucide="shield-check"></i>
+                <span>Your information is safe with us. We never share your data.</span>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ── SECTION 6: VISUAL GALLERY (EXACT MATCH TO REFERENCE SCREENSHOT) ── -->
+    <section class="page-section section-gallery" id="gallery">
+
+      <!-- Left Botanical Leaf Decor -->
+      <div class="gallery-leaf-left" aria-hidden="true">
+        <img src="leaf.png" alt="" />
+      </div>
+
+      <!-- Right Gold Wavy Curves Decor -->
+      <div class="gallery-curves-right" aria-hidden="true">
+        <svg width="220" height="90" viewBox="0 0 220 90" fill="none">
+          <path d="M220 20C180 20 145 60 110 60C75 60 45 20 0 40" stroke="#C49859" stroke-width="1.2" stroke-linecap="round" opacity="0.6"/>
+          <path d="M200 40C165 40 135 70 100 70C65 70 35 35 0 55" stroke="#C49859" stroke-width="0.8" stroke-linecap="round" opacity="0.35"/>
+          <path d="M220 58C190 58 165 76 135 78" stroke="#C49859" stroke-width="0.7" stroke-linecap="round" opacity="0.25"/>
+        </svg>
+      </div>
+
+      <div class="container">
+
+        <!-- Script Title "Gallery" & Lotus Ornament (Matching Reference) -->
+        <div class="gallery-script-header">
+          <h2 class="gallery-script-title">Gallery</h2>
+          <div class="gallery-lotus-ornament">
+            <span class="orn-line"></span>
+            <span class="orn-dot"></span>
+            <svg class="orn-lotus" width="36" height="26" viewBox="0 0 36 26" fill="none">
+              <path d="M18 2C21 7.5 26 11 32 12C27.5 17.5 21.5 19.5 18 24C14.5 19.5 8.5 17.5 4 12C10 11 15 7.5 18 2Z" stroke="#C49859" stroke-width="1.4" fill="none"/>
+              <path d="M18 9C15.5 13 12 16 7.5 17.5C11 20.5 15 21.5 18 23.5C21 21.5 25 20.5 28.5 17.5C24 16 20.5 13 18 9Z" stroke="#C49859" stroke-width="1" fill="none" opacity="0.7"/>
+            </svg>
+            <span class="orn-dot"></span>
+            <span class="orn-line"></span>
+          </div>
+        </div>
+
+        <!-- 7-Card Grid (Matching Reference Screenshot) -->
+        <div class="gallery-reference-grid" id="galleryMosaic">
+
+          <!-- Row 1: 3 Images -->
+          <div class="grg-row grg-row-top">
+            <div class="grg-card grg-card-1" data-cat="ambiance">
+              <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=800&q=80" alt="Cozy Dining Atmosphere" loading="lazy" />
+            </div>
+            <div class="grg-card grg-card-2" data-cat="food">
+              <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=800&q=80" alt="Gourmet Plated Dish" loading="lazy" />
+            </div>
+            <div class="grg-card grg-card-3" data-cat="ambiance">
+              <img src="https://images.unsplash.com/photo-1550966871-3ed3cdb5ed0c?auto=format&fit=crop&w=800&q=80" alt="Bar Lounge Interior" loading="lazy" />
+            </div>
+          </div>
+
+          <!-- Row 2: 4 Images -->
+          <div class="grg-row grg-row-bottom">
+            <div class="grg-card grg-card-4" data-cat="food">
+              <img src="https://images.unsplash.com/photo-1606313564200-e75d5e30476c?auto=format&fit=crop&w=600&q=80" alt="Chocolate Lava Cake" loading="lazy" />
+            </div>
+            <div class="grg-card grg-card-5" data-cat="food">
+              <img src="https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=600&q=80" alt="Fresh Mint Mojito" loading="lazy" />
+            </div>
+            <div class="grg-card grg-card-6" data-cat="food">
+              <img src="https://images.unsplash.com/photo-1555949258-eb67b1ef0ceb?auto=format&fit=crop&w=600&q=80" alt="Creamy Gnocchi Pasta" loading="lazy" />
+            </div>
+            <div class="grg-card grg-card-7" data-cat="food">
+              <img src="https://images.unsplash.com/photo-1533134242443-d4fd215305ad?auto=format&fit=crop&w=600&q=80" alt="Berry Cheesecake" loading="lazy" />
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ── SECTION 7: CONTACT CONCIERGE (100% MATCH TO REFERENCE SCREENSHOT) ── -->
+    <section class="page-section section-contact" id="contact">
+      <div class="container">
+
+        <!-- Top Header Hero: Split Text Left + Faded Ambiance Image Right -->
+        <div class="contact-top-hero">
+          <div class="contact-top-text">
+            <div class="contact-script-eyebrow">Get In Touch</div>
+            <div class="contact-title-lotus-line">
+              <span class="ctl-line"></span>
+              <svg width="24" height="18" viewBox="0 0 24 18" fill="none">
+                <path d="M12 1C14 5 18 7 22 8C19 12 15 13.5 12 17C9 13.5 5 12 2 8C6 7 10 5 12 1Z" stroke="#C49859" stroke-width="1.2" fill="none"/>
+              </svg>
+              <span class="ctl-line"></span>
+            </div>
+            <h2 class="contact-hero-heading">Contact Us</h2>
+            <p class="contact-hero-desc">
+              We'd love to hear from you. Whether you have a question, a special request, or want to give feedback — our team is here to help.
+            </p>
+          </div>
+
+          <div class="contact-top-media">
+            <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?auto=format&fit=crop&w=1000&q=80" alt="Restaurant Ambiance" />
+            <div class="ctm-fade-overlay"></div>
+          </div>
+        </div>
+
+        <!-- 3-Column Cards Grid -->
+        <div class="contact-cards-grid">
+
+          <!-- Card 1: Get in Touch Info -->
+          <div class="cc-card cc-card-info">
+            <h3 class="cc-card-title">Get in Touch</h3>
+            <div class="cc-card-ornament">
+              <span class="cco-line"></span>
+              <svg width="20" height="14" viewBox="0 0 20 14" fill="none">
+                <path d="M10 1C11.5 4 15 5.5 18 6.5C15.5 10 12.5 11.5 10 14C7.5 11.5 4.5 10 2 6.5C5 5.5 8.5 4 10 1Z" stroke="#C49859" stroke-width="1.2" fill="none"/>
+              </svg>
+              <span class="cco-line"></span>
+            </div>
+
+            <div class="cc-info-list">
+              <div class="cc-info-item">
+                <div class="cc-icon-circle"><i data-lucide="map-pin"></i></div>
+                <div class="cc-info-content">
+                  <h5>Our Location</h5>
+                  <p>123 Elegance Street, Foodie Lane,<br />Gourmet City, GC 12345</p>
+                </div>
+              </div>
+
+              <div class="cc-info-item">
+                <div class="cc-icon-circle"><i data-lucide="phone"></i></div>
+                <div class="cc-info-content">
+                  <h5>Call Us</h5>
+                  <p>+91 98765 43210<br />+91 12345 67890</p>
+                </div>
+              </div>
+
+              <div class="cc-info-item">
+                <div class="cc-icon-circle"><i data-lucide="mail"></i></div>
+                <div class="cc-info-content">
+                  <h5>Email Us</h5>
+                  <p>hello@restaurant.com<br />support@restaurant.com</p>
+                </div>
+              </div>
+
+              <div class="cc-info-item">
+                <div class="cc-icon-circle"><i data-lucide="clock"></i></div>
+                <div class="cc-info-content">
+                  <h5>Opening Hours</h5>
+                  <p>Monday – Sunday<br />11:00 AM – 11:00 PM</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Card 2: Send Us a Message Form -->
+          <div class="cc-card cc-card-form">
+            <h3 class="cc-card-title">Send Us a Message</h3>
+            <div class="cc-card-ornament">
+              <span class="cco-line"></span>
+              <svg width="20" height="14" viewBox="0 0 20 14" fill="none">
+                <path d="M10 1C11.5 4 15 5.5 18 6.5C15.5 10 12.5 11.5 10 14C7.5 11.5 4.5 10 2 6.5C5 5.5 8.5 4 10 1Z" stroke="#C49859" stroke-width="1.2" fill="none"/>
+              </svg>
+              <span class="cco-line"></span>
+            </div>
+
+            <form class="cc-form" id="contactPageForm" onsubmit="handleContactFormSubmit(event)">
+              <div class="cc-form-grid-2">
+                <div class="cc-input-wrap">
+                  <span class="cc-input-icon"><i data-lucide="user"></i></span>
+                  <input type="text" placeholder="Your Name" required />
+                </div>
+                <div class="cc-input-wrap">
+                  <span class="cc-input-icon"><i data-lucide="mail"></i></span>
+                  <input type="email" placeholder="Your Email" required />
+                </div>
+                <div class="cc-input-wrap">
+                  <span class="cc-input-icon"><i data-lucide="phone"></i></span>
+                  <input type="tel" placeholder="Phone Number" />
+                </div>
+                <div class="cc-input-wrap">
+                  <span class="cc-input-icon"><i data-lucide="file-text"></i></span>
+                  <input type="text" placeholder="Subject" />
+                </div>
+              </div>
+
+              <div class="cc-input-wrap cc-textarea-wrap">
+                <span class="cc-input-icon"><i data-lucide="edit-3"></i></span>
+                <textarea placeholder="Your Message" rows="3" required></textarea>
+              </div>
+
+              <div class="cc-form-btn-wrap">
+                <button type="submit" class="cc-submit-btn">
+                  <i data-lucide="send"></i>
+                  <span>Send Message</span>
+                </button>
+              </div>
+
+              <div class="cc-privacy-note">
+                <i data-lucide="shield-check"></i>
+                <span>We respect your privacy. Your information is safe with us.</span>
+              </div>
+            </form>
+          </div>
+
+          <!-- Card 3: Promo / Thank You Card -->
+          <div class="cc-card cc-card-promo">
+            <div class="cc-promo-img-wrap">
+              <img src="https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&w=600&q=80" alt="Thank You" />
+              <div class="cc-thankyou-badge">
+                <span class="ty-text">Thank<br />You!</span>
+                <span class="ty-heart">♥</span>
+              </div>
+            </div>
+            <div class="cc-promo-body">
+              <div class="cc-promo-headset"><i data-lucide="headset"></i></div>
+              <h4 class="cc-promo-title">We're Here for You</h4>
+              <p class="cc-promo-desc">
+                For reservations, events, or any special requests, feel free to reach out anytime.
+              </p>
+              <div class="cc-promo-gold-bar"></div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ===================== FOOTER (100% MATCH TO REFERENCE SCREENSHOT) ===================== -->
+  <footer class="site-footer" id="siteFooter">
+
+    <!-- Upper Footer Section with CONTACT US.png background -->
+    <div class="site-upper-footer">
+
+      <!-- Top Full-Width Lotus Divider Line -->
+      <div class="footer-lotus-divider">
+        <span class="fld-line"></span>
+        <div class="fld-lotus">
+          <svg width="34" height="24" viewBox="0 0 34 24" fill="none">
+            <path d="M17 1C19.5 7 25 10 31 11C27 16.5 21.5 18.5 17 23C12.5 18.5 7 16.5 3 11C9 10 14.5 7 17 1Z" stroke="#C49859" stroke-width="1.3" fill="none"/>
+            <circle cx="10" cy="12" r="1.5" fill="#C49859"/>
+            <circle cx="24" cy="12" r="1.5" fill="#C49859"/>
+          </svg>
+        </div>
+        <span class="fld-line"></span>
+      </div>
+
+      <div class="container">
+        <div class="upper-footer-grid">
+
+          <!-- Col 1: Brand Logo & Description -->
+          <div class="uf-col uf-brand-col">
+            <div class="uf-logo-wrap">
+              <svg width="40" height="30" viewBox="0 0 34 24" fill="none">
+                <path d="M17 1C19.5 7 25 10 31 11C27 16.5 21.5 18.5 17 23C12.5 18.5 7 16.5 3 11C9 10 14.5 7 17 1Z" stroke="#C49859" stroke-width="1.5" fill="none"/>
+              </svg>
+              <h3 class="uf-brand-name">RESTAURANT</h3>
+              <span class="uf-brand-tag">Taste the Elegance</span>
+            </div>
+            <div class="uf-gold-bar"></div>
+            <p class="uf-brand-desc">
+              Experience fine dining with exquisite flavors, warm ambiance and unmatched hospitality.
+            </p>
+            <div class="uf-social-row">
+              <a href="#home" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+              <a href="#home" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+              <a href="#home" aria-label="Twitter"><i data-lucide="twitter"></i></a>
+              <a href="#home" aria-label="WhatsApp"><i data-lucide="message-circle"></i></a>
+            </div>
+          </div>
+
+          <!-- Col 2: Quick Links -->
+          <div class="uf-col">
+            <h4 class="uf-col-title">QUICK LINKS</h4>
+            <div class="uf-title-ornament">
+              <span class="uto-dot"></span><span class="uto-line"></span><span class="uto-dot"></span>
+            </div>
+            <ul class="uf-links-list">
+              <li><a href="#home"><span class="arr">&gt;</span> Home</a></li>
+              <li><a href="#story"><span class="arr">&gt;</span> About Us</a></li>
+              <li><a href="#menu"><span class="arr">&gt;</span> Menu</a></li>
+              <li><a href="#gallery"><span class="arr">&gt;</span> Gallery</a></li>
+              <li><a href="#reservation"><span class="arr">&gt;</span> Reservations</a></li>
+              <li><a href="#contact"><span class="arr">&gt;</span> Contact Us</a></li>
+            </ul>
+          </div>
+
+          <!-- Col 3: Our Services -->
+          <div class="uf-col">
+            <h4 class="uf-col-title">OUR SERVICES</h4>
+            <div class="uf-title-ornament">
+              <span class="uto-dot"></span><span class="uto-line"></span><span class="uto-dot"></span>
+            </div>
+            <ul class="uf-links-list">
+              <li><a href="#menu"><span class="arr">&gt;</span> Fine Dining</a></li>
+              <li><a href="#reservation"><span class="arr">&gt;</span> Private Events</a></li>
+              <li><a href="#reservation"><span class="arr">&gt;</span> Catering</a></li>
+              <li><a href="#reservation"><span class="arr">&gt;</span> Online Reservations</a></li>
+              <li><a href="#menu"><span class="arr">&gt;</span> Takeaway</a></li>
+            </ul>
+          </div>
+
+          <!-- Col 4: Contact Info -->
+          <div class="uf-col">
+            <h4 class="uf-col-title">CONTACT INFO</h4>
+            <div class="uf-title-ornament">
+              <span class="uto-dot"></span><span class="uto-line"></span><span class="uto-dot"></span>
+            </div>
+            <div class="uf-contact-list">
+              <div class="uf-citem">
+                <div class="uf-cicon"><i data-lucide="map-pin"></i></div>
+                <span>123, Culinary Street,<br />Foodie City, FC 45678</span>
+              </div>
+              <div class="uf-citem">
+                <div class="uf-cicon"><i data-lucide="phone"></i></div>
+                <span>+91 98765 43210</span>
+              </div>
+              <div class="uf-citem">
+                <div class="uf-cicon"><i data-lucide="mail"></i></div>
+                <span>info@restaurant.com</span>
+              </div>
+              <div class="uf-citem">
+                <div class="uf-cicon"><i data-lucide="clock"></i></div>
+                <span>Mon – Sun<br />11:00 AM – 11:00 PM</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Vertical Divider Line -->
+          <div class="uf-vdivider"></div>
+
+          <!-- Col 5: Newsletter -->
+          <div class="uf-col uf-newsletter-col">
+            <h4 class="uf-col-title">NEWSLETTER</h4>
+            <div class="uf-title-ornament">
+              <span class="uto-dot"></span><span class="uto-line"></span><span class="uto-dot"></span>
+            </div>
+            <p class="uf-news-desc">Subscribe to our newsletter for updates &amp; offers.</p>
+            <form class="uf-news-form" onsubmit="event.preventDefault(); showToast('Subscribed ✉️', 'Thank you for joining our privilege club.'); this.reset();">
+              <input type="email" placeholder="Your email address" required />
+              <button type="submit" class="uf-news-btn">SUBSCRIBE</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <!-- Very Bottom Lower Footer Artwork Strip (100% MATCH TO REFERENCE SCREENSHOT) -->
+    <div class="site-lower-footer-strip">
+      <div class="slf-content-center">
+        <span class="slf-copy">&copy; 2026 RoyalBite. All Rights Reserved.</span>
+        <span class="slf-divider">|</span>
+        <a href="#home" class="slf-link">Privacy Policy</a>
+        <span class="slf-divider">|</span>
+        <a href="#home" class="slf-link">Terms &amp; Conditions</a>
+      </div>
+    </div>
+  </footer>
+
+
+
+  <!-- ===================== FULL MENU MODAL ===================== -->
+  <div class="full-menu-modal" id="fullMenuModal">
+    <div class="fmm-card">
+      <div class="fmm-header">
+        <div>
+          <h2 class="fmm-title">RoyalBite Full Menu</h2>
+          <p class="fmm-sub">Explore our master chefs' complete artisanal creations</p>
+        </div>
+        <button class="fmm-close-btn" onclick="closeFullMenuModal()">
+          <i data-lucide="x"></i>
+        </button>
+      </div>
+
+      <!-- Filter Controls -->
+      <div class="fmm-controls">
+        <div class="fmm-tabs-row" id="fmmTabsRow">
+          <button class="fmm-tab-btn active" data-fmm-cat="all">All Dishes</button>
+          <button class="fmm-tab-btn" data-fmm-cat="starters">Starters</button>
+          <button class="fmm-tab-btn" data-fmm-cat="mains">Main Course</button>
+          <button class="fmm-tab-btn" data-fmm-cat="breads">Breads</button>
+          <button class="fmm-tab-btn" data-fmm-cat="desserts">Desserts</button>
+          <button class="fmm-tab-btn" data-fmm-cat="beverages">Beverages</button>
+        </div>
+        <div class="fmm-search-box">
+          <i data-lucide="search"></i>
+          <input type="text" id="fmmSearchInput" placeholder="Search dishes (e.g. Biryani, Pasta, Lassi)..." />
+        </div>
+      </div>
+
+      <!-- Full Menu Dishes Grid -->
+      <div class="fmm-grid" id="fmmDishesGrid">
+        <!-- Rendered dynamically by JS -->
+      </div>
+    </div>
+  </div>
+
+  <!-- ===================== INTERACTIVE TOAST POPUP ===================== -->
+  <aside class="toast-popup" id="toastPopup" role="status" aria-live="polite">
+    <div class="toast-inner">
+      <div class="toast-icon">
+        <i data-lucide="sparkles"></i>
+      </div>
+      <div>
+        <strong id="toastHeading">Notification</strong>
+        <p id="toastMessage">Message details</p>
+      </div>
+      <button class="toast-close" onclick="document.getElementById('toastPopup').classList.remove('show')" aria-label="Close Notification">
+        <i data-lucide="x"></i>
+      </button>
+    </div>
+  </aside>
+
+  <!-- App Script -->
+  <script src="app.js"></script>
+</body>
+</html>
