@@ -721,9 +721,13 @@ function initMobileMenu() {
   const btn = document.getElementById('mobileMenuBtn');
   const nav = document.getElementById('navLinks');
   if (btn && nav) {
-    btn.addEventListener('click', () => nav.classList.toggle('open'));
+    btn.addEventListener('click', () => {
+      btn.classList.toggle('open');
+      nav.classList.toggle('open');
+    });
     document.addEventListener('click', (e) => {
       if (!nav.contains(e.target) && !btn.contains(e.target)) {
+        btn.classList.remove('open');
         nav.classList.remove('open');
       }
     });

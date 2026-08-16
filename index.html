@@ -47,7 +47,7 @@
           </div>
         </a>
 
-        <!-- Desktop Navigation (Matching screenshot labels & underline) -->
+        <!-- Desktop & Mobile Navigation -->
         <nav class="nav-links" id="navLinks" aria-label="Main Navigation">
           <a href="#home"        class="nav-item active" data-target="home">Home<span class="nav-active-bar"></span></a>
           <a href="#story"       class="nav-item" data-target="story">About<span class="nav-active-bar"></span></a>
@@ -55,6 +55,18 @@
           <a href="#reservation" class="nav-item" data-target="reservation">Reservation<span class="nav-active-bar"></span></a>
           <a href="#gallery"     class="nav-item" data-target="gallery">Gallery<span class="nav-active-bar"></span></a>
           <a href="#contact"     class="nav-item" data-target="contact">Contact<span class="nav-active-bar"></span></a>
+
+          <!-- Mobile Menu Drawer Action Buttons -->
+          <div class="mobile-drawer-actions">
+            <a href="login.html" class="btn-royal-amber drawer-btn-signin">
+              <i data-lucide="user"></i>
+              <span>Sign In</span>
+            </a>
+            <a href="#reservation" class="btn-royal-amber drawer-btn-book" onclick="document.getElementById('navLinks').classList.remove('open'); document.getElementById('mobileMenuBtn').classList.remove('open');">
+              <i data-lucide="calendar"></i>
+              <span>Book a Table</span>
+            </a>
+          </div>
         </nav>
 
         <!-- CTA & Mobile Toggle -->

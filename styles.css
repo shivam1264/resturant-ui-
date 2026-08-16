@@ -357,8 +357,142 @@ ul   { list-style: none; }
   transform: translateY(-2px);
   box-shadow: 0 8px 22px rgba(217, 119, 6, 0.38);
 }
-.btn-royal-amber:active { transform: scale(0.98); }
 .btn-royal-amber svg { width: 18px; height: 18px; stroke-width: 2.2px; }
+
+/* Hamburger Toggle Button & Animated Spans */
+.hamburger-btn {
+  display: none;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1.5px solid rgba(215, 195, 172, 0.85);
+  box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+  z-index: 1001;
+  transition: all 0.25s ease;
+}
+
+.hamburger-btn span {
+  width: 18px;
+  height: 2px;
+  background: #1C3A27;
+  border-radius: 2px;
+  transition: all 0.3s ease;
+}
+
+.hamburger-btn.open {
+  background: #1C3A27;
+  border-color: #1C3A27;
+}
+
+.hamburger-btn.open span {
+  background: #FFFFFF;
+}
+
+.hamburger-btn.open span:nth-child(1) {
+  transform: translateY(7px) rotate(45deg);
+}
+.hamburger-btn.open span:nth-child(2) {
+  opacity: 0;
+}
+.hamburger-btn.open span:nth-child(3) {
+  transform: translateY(-7px) rotate(-45deg);
+}
+
+.mobile-drawer-actions {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .header-wrap {
+    padding: 0 16px;
+  }
+  .site-header.seamless-header {
+    height: 72px;
+  }
+  .site-logo {
+    gap: 8px;
+  }
+  .logo-icon-crown svg {
+    width: 34px;
+    height: 36px;
+  }
+  .logo-name {
+    font-size: 1.25rem;
+  }
+  .logo-tag {
+    font-size: 0.46rem;
+    letter-spacing: 0.16em;
+  }
+  .hamburger-btn {
+    display: flex;
+  }
+  .header-cta-btn {
+    display: none;
+  }
+  .nav-links {
+    position: fixed;
+    top: 76px;
+    left: 12px;
+    right: 12px;
+    background: rgba(250, 247, 242, 0.98);
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1.5px solid rgba(215, 195, 172, 0.85);
+    border-radius: 20px;
+    box-shadow: 0 16px 50px rgba(28, 58, 39, 0.15);
+    padding: 22px 18px;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 8px;
+    transform: translateY(-20px) scale(0.96);
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+    z-index: 1000;
+  }
+  .nav-links.open {
+    transform: translateY(0) scale(1);
+    opacity: 1;
+    pointer-events: auto;
+  }
+  .nav-item {
+    font-size: 1.05rem;
+    font-weight: 600;
+    padding: 11px 16px;
+    border-radius: 12px;
+    background: rgba(243, 235, 223, 0.55);
+    color: #1C3A27;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+  }
+  .nav-item.active {
+    background: #1C3A27;
+    color: #FFFFFF;
+  }
+  .nav-active-bar {
+    display: none;
+  }
+  .mobile-drawer-actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 8px;
+    padding-top: 12px;
+    border-top: 1px dashed rgba(215, 195, 172, 0.7);
+  }
+  .drawer-btn-signin,
+  .drawer-btn-book {
+    width: 100%;
+    justify-content: center;
+  }
+}
 
 /* Hero Carousel Navigation Arrows (Matching Screenshot) */
 .hero-arrow-btn {
