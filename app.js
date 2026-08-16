@@ -284,7 +284,7 @@ const MENU_ITEMS = [
     isVeg: true,
     rating: 4.9,
     reviews: 390,
-    image: 'https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?auto=format&fit=crop&w=600&q=80',
+    image: 'https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80',
     desc: 'Soft cottage cheese discs floating in chilled saffron rabri with pistachio.'
   },
   {
@@ -721,13 +721,9 @@ function initMobileMenu() {
   const btn = document.getElementById('mobileMenuBtn');
   const nav = document.getElementById('navLinks');
   if (btn && nav) {
-    btn.addEventListener('click', () => {
-      btn.classList.toggle('open');
-      nav.classList.toggle('open');
-    });
+    btn.addEventListener('click', () => nav.classList.toggle('open'));
     document.addEventListener('click', (e) => {
       if (!nav.contains(e.target) && !btn.contains(e.target)) {
-        btn.classList.remove('open');
         nav.classList.remove('open');
       }
     });

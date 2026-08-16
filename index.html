@@ -47,7 +47,7 @@
           </div>
         </a>
 
-        <!-- Desktop & Mobile Navigation -->
+        <!-- Desktop Navigation (Matching screenshot labels & underline) -->
         <nav class="nav-links" id="navLinks" aria-label="Main Navigation">
           <a href="#home"        class="nav-item active" data-target="home">Home<span class="nav-active-bar"></span></a>
           <a href="#story"       class="nav-item" data-target="story">About<span class="nav-active-bar"></span></a>
@@ -55,18 +55,6 @@
           <a href="#reservation" class="nav-item" data-target="reservation">Reservation<span class="nav-active-bar"></span></a>
           <a href="#gallery"     class="nav-item" data-target="gallery">Gallery<span class="nav-active-bar"></span></a>
           <a href="#contact"     class="nav-item" data-target="contact">Contact<span class="nav-active-bar"></span></a>
-
-          <!-- Mobile Menu Drawer Action Buttons -->
-          <div class="mobile-drawer-actions">
-            <a href="login.html" class="btn-royal-amber drawer-btn-signin">
-              <i data-lucide="user"></i>
-              <span>Sign In</span>
-            </a>
-            <a href="#reservation" class="btn-royal-amber drawer-btn-book" onclick="document.getElementById('navLinks').classList.remove('open'); document.getElementById('mobileMenuBtn').classList.remove('open');">
-              <i data-lucide="calendar"></i>
-              <span>Book a Table</span>
-            </a>
-          </div>
         </nav>
 
         <!-- CTA & Mobile Toggle -->
@@ -334,7 +322,7 @@
             <span>Main Course</span>
           </button>
           <button class="menu-tab-btn" data-cat="breads">
-            <i data-lucide="sandwich"></i>
+            <i data-lucide="wheat"></i>
             <span>Breads</span>
           </button>
           <button class="menu-tab-btn" data-cat="desserts">
@@ -650,7 +638,19 @@
 
       <!-- Left Botanical Leaf Decor -->
       <div class="gallery-leaf-left" aria-hidden="true">
-        <img src="leaf.png" alt="" />
+        <svg width="120" height="180" viewBox="0 0 120 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M60 170 C60 90 100 20 100 20 C70 50 40 40 10 70 C-10 100 30 140 60 170Z" fill="url(#leaf-grad-index)" opacity="0.4"/>
+          <path d="M60 170 C60 100 35 75 10 70" stroke="#C49859" stroke-width="1.5" stroke-linecap="round" opacity="0.7"/>
+          <path d="M50 140 Q35 125 25 125" stroke="#C49859" stroke-width="1" opacity="0.5"/>
+          <path d="M55 110 Q40 95 30 95" stroke="#C49859" stroke-width="1" opacity="0.5"/>
+          <path d="M58 80 Q45 65 35 65" stroke="#C49859" stroke-width="1" opacity="0.5"/>
+          <defs>
+            <linearGradient id="leaf-grad-index" x1="60" y1="20" x2="60" y2="170" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#D97706" stop-opacity="0.5"/>
+              <stop offset="1" stop-color="#B48B5D" stop-opacity="0.1"/>
+            </linearGradient>
+          </defs>
+        </svg>
       </div>
 
       <!-- Right Gold Wavy Curves Decor -->
